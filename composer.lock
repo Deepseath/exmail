@@ -1,0 +1,254 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "36cff624bc334010894b8b29b5264da7",
+  "packages": [
+    {
+      "name": "psr/log",
+      "version": "1.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/log.git",
+        "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+        "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+        "shasum": "",
+        "mirrors": [
+          {
+            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+            "preferred": true
+          }
+        ]
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Log\\": "Psr/Log/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for logging libraries",
+      "homepage": "https://github.com/php-fig/log",
+      "keywords": [
+        "log",
+        "psr",
+        "psr-3"
+      ],
+      "time": "2018-11-20T15:27:04+00:00"
+    },
+    {
+      "name": "psr/simple-cache",
+      "version": "1.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/simple-cache.git",
+        "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+        "shasum": "",
+        "mirrors": [
+          {
+            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+            "preferred": true
+          }
+        ]
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\SimpleCache\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interfaces for simple caching",
+      "keywords": [
+        "cache",
+        "caching",
+        "psr",
+        "psr-16",
+        "simple-cache"
+      ],
+      "time": "2017-10-23T01:57:42+00:00"
+    },
+    {
+      "name": "sinri/ark-cache",
+      "version": "2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sinri/Ark-Cache.git",
+        "reference": "224d0b4aa9ae54c3f05348cd11b918c2836b1d3d"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/sinri/Ark-Cache/zipball/224d0b4aa9ae54c3f05348cd11b918c2836b1d3d",
+        "reference": "224d0b4aa9ae54c3f05348cd11b918c2836b1d3d",
+        "shasum": "",
+        "mirrors": [
+          {
+            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+            "preferred": true
+          }
+        ]
+      },
+      "require": {
+        "psr/simple-cache": "~1.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "sinri\\ark\\cache\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Sinri Edogawa",
+          "email": "e.joshua.s.e@gmail.com"
+        }
+      ],
+      "description": "The cache component for Ark 2",
+      "time": "2019-03-26T09:08:43+00:00"
+    },
+    {
+      "name": "sinri/ark-core",
+      "version": "2.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sinri/Ark-Core.git",
+        "reference": "271e70400b533e4a91976d152bc9978ba527779b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/sinri/Ark-Core/zipball/271e70400b533e4a91976d152bc9978ba527779b",
+        "reference": "271e70400b533e4a91976d152bc9978ba527779b",
+        "shasum": "",
+        "mirrors": [
+          {
+            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+            "preferred": true
+          }
+        ]
+      },
+      "require": {
+        "ext-json": "*",
+        "psr/log": "~1.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "sinri\\ark\\core\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Sinri Edogawa",
+          "email": "e.joshua.s.e@gmail.com"
+        }
+      ],
+      "description": "The core components of Ark 2",
+      "time": "2019-07-02T06:32:33+00:00"
+    },
+    {
+      "name": "sinri/ark-curl",
+      "version": "2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sinri/Ark-Curl.git",
+        "reference": "f4f7ae162326fdb9fa3268e6500cd6a1834f8eee"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/sinri/Ark-Curl/zipball/f4f7ae162326fdb9fa3268e6500cd6a1834f8eee",
+        "reference": "f4f7ae162326fdb9fa3268e6500cd6a1834f8eee",
+        "shasum": "",
+        "mirrors": [
+          {
+            "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+            "preferred": true
+          }
+        ]
+      },
+      "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "sinri/ark-core": "~2.0"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "sinri\\ark\\io\\curl\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Sinri Edogawa",
+          "email": "e.joshua.s.e@gmail.com"
+        }
+      ],
+      "description": "The cURL component for Ark 2.",
+      "time": "2019-01-09T03:53:08+00:00"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": []
+}
